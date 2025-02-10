@@ -15,7 +15,7 @@ Từng server sẽ được setup 1 website chính, gọi là hub (central). Cá
 
 ## Khởi tạo 1 store
 
-Truy cập vào từng hub để khởi tạo store. Có 1 việc chính có thể làm song song với nhau
+Truy cập vào từng hub để khởi tạo store. Có 2 bước chính là trỏ domain và khởi tạo, có thể làm song song, không ảnh hưởng đến nhau.
 
 ### Trỏ domain về hub
 
