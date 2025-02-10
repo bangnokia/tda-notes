@@ -14,3 +14,8 @@ Domain chính: `tdalunar.com`
 Từng server sẽ được setup 1 website chính, gọi là hub (central). Các hub sẽ tạo các website trên server. Quy tắc đặt tên `s1.tdalunar.com`, `s2.tdalunar.com`, ...
 
 
+## Khởi tạo 1 store
+
+
+
+
