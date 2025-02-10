@@ -24,7 +24,8 @@ Có 2 cách đề trỏ domain về hub, ví dụ dưới đây hướng dẫn k
 2. Tạo A record trỏ về IP của từng hub (không khuyến khích).
 *Chú ý không được sử dụng proxied mode (đám mây vàng) của Cloudflare*
 
-Các tham số đầu vào:
+### Provision website trên hub
+
 - domain: domain chính của website
 - keyword: keyword chính cho việc SEO, đồng thời cũng là chủ đề của website)
 - related keywords: các keyword liên quan đến keyword chính (hiện tại sử dụng cho việc lọc title sản phẩm khi crawl về)
