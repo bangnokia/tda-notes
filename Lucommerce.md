@@ -20,7 +20,7 @@ Truy cập vào từng hub để khởi tạo store. Có 1 việc chính có th�
 ### Trỏ domain về hub
 
 Có 2 cách đề trỏ domain về hub, ví dụ dưới đây hướng dẫn khi sử dụng Cloudflare.
-1. Tạo CNAME record cho root domain, trỏ về `sxx.tdalunar.com`
+1. Tạo CNAME record cho root domain, trỏ về `sxx.tdalunar.com` (domain của hub).
 2. Tạo A record trỏ về IP của từng hub (không khuyến khích).
 *Chú ý không được sử dụng proxied mode (đám mây vàng) của Cloudflare*
 
