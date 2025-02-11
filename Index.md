@@ -8,7 +8,6 @@ Danh sách các project thực hiện bởi dev team:
 - [[Hansible]]: collection các ansible playbook của hệ thống
 - Jenkins: selfhost instance Jenkins
 - Zabbix: selfhost instance Zabbix
-- 
 
 
 
