@@ -18,3 +18,7 @@ Project custom lại roles_path ko giống default ansible, chú ý cấu hình 
 -- inventories:  danh sách các server cho web lunar
 -- playbooks: danh sách các playbook
 -- roles: danh sách các roles
+
+## Bảo mật
+
+Hiện tại project đang ở trạng thái public 😂, có 1 số vấn đề chưa giải quyết đề chuyến sang private.
