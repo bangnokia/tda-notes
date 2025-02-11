@@ -13,6 +13,18 @@ Domain chính: `tdalunar.com`
 
 Từng server sẽ được setup 1 website chính, gọi là hub (central). Các hub sẽ tạo các website trên server. Quy tắc đặt tên `s1.tdalunar.com`, `s2.tdalunar.com`, ...
 
+## Stack sử dụng
+
+Ngôn ngữ:
+- Laravel
+- AlpineJS
+- Livewire
+
+Server:
+- Caddy: cấu hình đơn giản, auto TLS thay vì Nginx và Certbot.
+- SQLite
+- PHP-FPM
+
 ## Khởi tạo 1 store
 
 Truy cập vào từng hub để khởi tạo store. Có 2 bước chính là trỏ domain và khởi tạo, có thể làm song song, không ảnh hưởng đến nhau.
