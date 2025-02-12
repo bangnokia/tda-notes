@@ -10,8 +10,8 @@ Danh sách các project thực hiện bởi dev team:
 - [[Zabbix]]: Selfhost instance Zabbix
 - OG image: A Nextjs app using Vercel OG image for open graph generation
 - Remove Background: Mini PHP app use the model to remove background of image on the fly (via URL)
-- Customedge: 
-- Portal: Portal tập trưng quản lý đơn hàng từ các store Wordpress.
+- Customedge: Crawl and clone các sản phẩm và tính năng của Customily
+- Portal: Portal tập trung quản lý đơn hàng từ các store Wordpress.
 
 
 
