@@ -23,10 +23,11 @@ Tránh cho việc switch giữa nhiều project cùng 1 lúc
 
 ## Tình hình server hiện tại
 
-Maintain server:
+Maintain server
 
 Có cần thiết sysadmin không, dev nên handle phần quản lý server hay không?
-Parttime hay full-time
+
+Part time hay full-time?
 
 - Các tool Laravel đang sử dụng Flashpanel.io (đang quản lý dựa trên tài khoản cá nhân).
 - Các site Wordpress và Lunar đang sử dụng Jenkins
