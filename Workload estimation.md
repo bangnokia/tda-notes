@@ -33,10 +33,10 @@ Parttime hay full-time
 
 ## Dev cần kĩ năng gì?
 
-- [ ] Laravel
+- [ ] PHP & Laravel
 - [ ] Linux
-- [ ] PHP
 - [ ] Problem solving
+- [ ] Frontend skill (CSS, JS lib)
 
 
 
