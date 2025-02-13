@@ -36,7 +36,7 @@ Parttime hay full-time
 - [ ] PHP & Laravel
 - [ ] Linux
 - [ ] Problem solving
-- [ ] Frontend skill (CSS, JS lib)
+- [ ] Frontend skill (CSS, Javascript)
 
 
 
