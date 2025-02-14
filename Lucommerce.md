@@ -27,8 +27,8 @@ Server:
 
 ## Bulk khởi tạo store
 
-Form: http://n8n.customedge.co/form/12afc66b-68b4-4fba-ae8e-8e35869d73e8
-Chuẩn bị các thông tin qua file csv và upload lên
+Khởi tạo thông qua N* http://n8n.customedge.co/form/12afc66b-68b4-4fba-ae8e-8e35869d73e8
+Chuẩn bị các thông tin qua file csv, chọn server và submit.
 
 ## Khởi tạo 1 store
 
