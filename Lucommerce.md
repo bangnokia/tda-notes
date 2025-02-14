@@ -25,19 +25,6 @@ Server:
 - SQLite
 - PHP-FPM
 
-## Bulk khởi tạo store
-
-Khởi tạo thông qua [N8N form](http://n8n.customedge.co/form/12afc66b-68b4-4fba-ae8e-8e35869d73e8)
-
-Chuẩn bị các thông tin qua file csv, chọn server và submit.
-
-Định dạng file csv có thể xem trên file mẫu ở form n8n, hoặc format cơ bản như sau
-
-| domain           | keyword     | similar_keywords        | topic     |
-| ---------------- | ----------- | ----------------------- | --------- |
-| chillguy.store   | chill guy   | chill guy, chilling guy | meme      |
-| thesimpson.store | the simpson | the simpson             | tv series |
-
 ## Khởi tạo 1 store
 
 Truy cập vào từng hub để khởi tạo store. Có 2 bước chính là trỏ domain và khởi tạo, có thể làm song song, không ảnh hưởng đến nhau.
@@ -56,6 +43,17 @@ Có 2 cách đề trỏ domain về hub, ví dụ dưới đây hướng dẫn k
 - related keywords: các keyword liên quan đến keyword chính (hiện tại sử dụng cho việc lọc title sản phẩm khi crawl về)
 - topic: chủ đề web, ví dụ: anime, movie, tv series,...
 
+## Bulk khởi tạo store
 
+Khởi tạo thông qua [N8N form](http://n8n.customedge.co/form/12afc66b-68b4-4fba-ae8e-8e35869d73e8)
+
+Chuẩn bị các thông tin qua file csv, chọn server và submit.
+
+Định dạng file csv có thể xem trên file mẫu ở form n8n, hoặc format cơ bản như sau
+
+| domain           | keyword     | similar_keywords        | topic     |
+| ---------------- | ----------- | ----------------------- | --------- |
+| chillguy.store   | chill guy   | chill guy, chilling guy | meme      |
+| thesimpson.store | the simpson | the simpson             | tv series |
 
 
