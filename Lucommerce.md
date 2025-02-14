@@ -13,6 +13,23 @@ Domain chính: `tdalunar.com`
 
 Từng server sẽ được setup 1 website chính, gọi là hub (central). Các hub sẽ tạo các website trên server. Quy tắc đặt tên `s1.tdalunar.com`, `s2.tdalunar.com`, ...
 
+### Lunar hub là gì?
+
+Lunar hub các các website chính cài trên từng server, phụ trách cho việc khởi tạo các website trên server này.
+
+Admin url: `hubdomain/hub`
+
+Giao diện admin của hub có thể thực hiện các hành động sau:
+- Toggle chế độ maintenance của website
+- Download, upload (replace) database của 1 store (hỗ trợ cho việc việc chuyển store từ server này sang server khác)
+- Quản lý store
+
+### Tenant store là gì?
+
+Tenant hay là các store bán sản phẩm, được tạo trên 1 hub.
+
+Admin url: `domain/lunar
+
 ## Stack sử dụng
 
 Ngôn ngữ:
@@ -26,9 +43,14 @@ Server:
 - SQLite
 - PHP-FPM
 
+Storage:
+- Bunny
+
 Kiến trúc website sử dụng 2 package chính là
 - [Lunarphp](https://lunarphp.com) cho các function và backend liên quan đến ecommerce
 - [TenancyForLaravel](https://tenancyforlaravel.com/) dùng cho kiến trúc multi tenancy, 1 server sẽ phục vụ nhiều website.
+
+Các feature có thể viết như 1 app Laravel cơ bản, hoặc chia thành các package trong thư mục `packages` của dự án. Điều này giúp cho việc maintain code nhẹ nhàng hơn.
 
 ## Khởi tạo 1 store
 
@@ -37,7 +59,7 @@ Truy cập vào từng hub để khởi tạo store. Có 2 bước chính là tr
 ### Trỏ domain về hub
 
 Có 2 cách đề trỏ domain về hub, ví dụ dưới đây hướng dẫn khi sử dụng Cloudflare.
-1. Tạo CNAME record cho root domain, trỏ về `sxx.tdalunar.com` (domain của hub).
+1. Tạo CNAME record cho root domain, trỏ về vd `s20.tdalunar.com` (domain của hub).
 2. Tạo A record trỏ về IP của từng hub (không khuyến khích).
 *Chú ý không được sử dụng proxied mode (đám mây vàng) của Cloudflare*
 
@@ -61,4 +83,13 @@ Chuẩn bị các thông tin qua file csv, chọn server và submit.
 | chillguy.store   | chill guy   | chill guy, chilling guy | meme      |
 | thesimpson.store | the simpson | the simpson             | tv series |
 
+## Các action khác
 
+### Thay đổi pass user hàng loạt cho toàn bộ stores
+
+Việc này có thể thực hiện trên [[Jenkins]] thông qua [artisan-command](http://jenkins.sweb.vn/job/lunar2/job/run-artisan-command/) runner.
+
+Command: 
+```bash
+php artisan tenants:change-password "admin@sweb.vn" "newpassword"
+```
