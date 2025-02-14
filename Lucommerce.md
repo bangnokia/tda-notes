@@ -30,6 +30,13 @@ Tenant hay là các store bán sản phẩm, được tạo trên 1 hub.
 
 Admin url: `domain/lunar
 
+Admin của store sử dụng cho việc quản lý sản phẩm,...
+
+
+### Payment process
+
+Các store lunar ko sử dụng checkout trên web, mà chúng ta sẽ thông qua 1 payment gateway khác (Woocommerce), hay còn gọi là redirect pay. Giảm thiểu việc cài đặt các tài khoản trên hàng ngàn store, khó trong việc quản lý.
+
 ## Stack sử dụng
 
 Ngôn ngữ:
@@ -74,7 +81,8 @@ Có 2 cách đề trỏ domain về hub, ví dụ dưới đây hướng dẫn k
 
 Khởi tạo thông qua [N8N form](http://n8n.customedge.co/form/12afc66b-68b4-4fba-ae8e-8e35869d73e8)
 
-Chuẩn bị các thông tin qua file csv, chọn server và submit.
+
+Chuẩn bị các thông tin qua file csv, chọn server và submit. Chú ý trỏ domain về đúng server của hub.
 
 Định dạng file csv có thể xem trên file mẫu ở form n8n, hoặc format cơ bản như sau
 
