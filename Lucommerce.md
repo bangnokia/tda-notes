@@ -19,6 +19,7 @@ Ngôn ngữ:
 - Laravel
 - AlpineJS
 - Livewire
+- SQLite
 
 Server:
 - Caddy: cấu hình đơn giản, auto TLS thay vì Nginx và Certbot.
@@ -27,7 +28,7 @@ Server:
 
 Kiến trúc website sử dụng 2 package chính là
 - [Lunarphp](https://lunarphp.com) cho các function và backend liên quan đến ecommerce
-- [TenancyForLaravel](https://tenancyforlaravel.com/) dùng cho kiến trúc multi tenancy.
+- [TenancyForLaravel](https://tenancyforlaravel.com/) dùng cho kiến trúc multi tenancy, 1 server sẽ phục vụ nhiều website.
 
 ## Khởi tạo 1 store
 
