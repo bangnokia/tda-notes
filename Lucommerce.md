@@ -26,8 +26,8 @@ Server:
 - PHP-FPM
 
 Kiến trúc website sử dụng 2 package chính là
-- [Lunarphp](https://lunarphp.com) sử dụng cho việc thiết kế database cho sản phẩm
-- 
+- [Lunarphp](https://lunarphp.com) cho các function và backend liên quan đến ecommerce
+- [TenancyForLaravel](https://tenancyforlaravel.com/) dùng cho kiến trúc multi tenancy.
 
 ## Khởi tạo 1 store
 
