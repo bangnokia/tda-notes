@@ -31,7 +31,12 @@ Khởi tạo thông qua [N8N form](http://n8n.customedge.co/form/12afc66b-68b4-4
 
 Chuẩn bị các thông tin qua file csv, chọn server và submit.
 
-Định dạng file csv có thể xem trên file mẫu ở fo
+Định dạng file csv có thể xem trên file mẫu ở form n8n, hoặc format cơ bản như sau
+
+| domain         | keyword   | similar_keywords        | topic |
+| -------------- | --------- | ----------------------- | ----- |
+| chillguy.store | chill guy | chill guy, chilling guy | meme  |
+|                |           |                         |       |
 
 ## Khởi tạo 1 store
 
