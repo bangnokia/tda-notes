@@ -25,6 +25,10 @@ Server:
 - SQLite
 - PHP-FPM
 
+Kiến trúc website sử dụng 2 package chính là
+- [Lunarphp](https://lunarphp.com) sử dụng cho việc thiết kế database cho sản phẩm
+- 
+
 ## Khởi tạo 1 store
 
 Truy cập vào từng hub để khởi tạo store. Có 2 bước chính là trỏ domain và khởi tạo, có thể làm song song, không ảnh hưởng đến nhau.
