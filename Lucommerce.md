@@ -59,6 +59,16 @@ Kiến trúc website sử dụng 2 package chính là
 
 Các feature có thể viết như 1 app Laravel cơ bản, hoặc chia thành các package trong thư mục `packages` của dự án. Điều này giúp cho việc maintain code nhẹ nhàng hơn.
 
+## Khởi tạo 1 hub
+
+Server requirements:
+- Ubuntu 22.04
+
+Các bước khỏi tạo hub sẽ thực hiện trên Jenkins
+
+1. Add deploy key dùng job: http://jenkins.sweb.vn/job/sweb/job/Add_user_deploy/
+2. Provision server cho hub dùng job: http://jenkins.sweb.vn/job/lunar2/job/provision/
+
 ## Khởi tạo 1 store
 
 Truy cập vào từng hub để khởi tạo store. Có 2 bước chính là trỏ domain và khởi tạo, có thể làm song song, không ảnh hưởng đến nhau.
@@ -66,8 +76,8 @@ Truy cập vào từng hub để khởi tạo store. Có 2 bước chính là tr
 ### Trỏ domain về hub
 
 Có 2 cách đề trỏ domain về hub, ví dụ dưới đây hướng dẫn khi sử dụng Cloudflare.
-1. Tạo CNAME record cho root domain, trỏ về vd `s20.tdalunar.com` (domain của hub).
-2. Tạo A record trỏ về IP của từng hub (không khuyến khích).
+3. Tạo CNAME record cho root domain, trỏ về vd `s20.tdalunar.com` (domain của hub).
+4. Tạo A record trỏ về IP của từng hub (không khuyến khích).
 *Chú ý không được sử dụng proxied mode (đám mây vàng) của Cloudflare*
 
 ### Provision website trên hub
