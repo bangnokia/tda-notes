@@ -25,6 +25,11 @@ Server:
 - SQLite
 - PHP-FPM
 
+## Bulk khởi tạo store
+
+Form: http://n8n.customedge.co/form/12afc66b-68b4-4fba-ae8e-8e35869d73e8
+Chuẩn bị các thông tin qua file csv và upload lên
+
 ## Khởi tạo 1 store
 
 Truy cập vào từng hub để khởi tạo store. Có 2 bước chính là trỏ domain và khởi tạo, có thể làm song song, không ảnh hưởng đến nhau.
