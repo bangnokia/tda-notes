@@ -32,8 +32,7 @@ Admin url: `domain/lunar
 
 Admin của store sử dụng cho việc quản lý sản phẩm,...
 
-
-### Payment process
+### Payment gateway
 
 Các store lunar ko sử dụng checkout trên web, mà chúng ta sẽ thông qua 1 payment gateway khác (Woocommerce), hay còn gọi là redirect pay. Giảm thiểu việc cài đặt các tài khoản trên hàng ngàn store, khó trong việc quản lý.
 
